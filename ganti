@@ -1,3 +1,4 @@
-rm -rf search.txt urls.txt
+rm -rf search.txt urls.txt proxy.txt
 curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/search.txt -o search.txt
 curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/urls.txt -o urls.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/proxy.txt -o proxy.txt
