@@ -1,0 +1,3 @@
+rm -rf search.txt urls.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/search.txt -o search.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/urls.txt -o urls.txt
