@@ -7,8 +7,7 @@ sudo apt install -y python3-pip
 pip3 install "setuptools<59"
 pip3 install -r requirements.txt
 rm -rf urls.txt search.txt
-curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/urls.txt -o urls.tx
-curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/search.txt -o serach.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/urls.txt -o urls.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/search.txt -o serarh.txt
 curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/proxy.txt -o proxy.txt
-curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/config.json -o config.json
 python3 youtube_viewer.py
