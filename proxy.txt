@@ -1,15 +1,1 @@
-113.30.153.107:5443:zzlcofty:ftj1nz1eit3k
-103.139.48.137:6022:zzlcofty:ftj1nz1eit3k
-154.95.32.6:5059:zzlcofty:ftj1nz1eit3k
-154.95.32.59:5112:zzlcofty:ftj1nz1eit3k
-154.95.32.191:5244:zzlcofty:ftj1nz1eit3k
-103.139.48.118:6003:zzlcofty:ftj1nz1eit3k
-138.128.59.144:9073:zzlcofty:ftj1nz1eit3k
-45.192.147.11:5659:zzlcofty:ftj1nz1eit3k
-5.154.253.202:8460:zzlcofty:ftj1nz1eit3k
-45.192.147.16:5664:zzlcofty:ftj1nz1eit3k
-103.53.219.233:6326:zzlcofty:ftj1nz1eit3k
-103.53.216.244:5328:zzlcofty:ftj1nz1eit3k
-161.123.215.189:6800:zzlcofty:ftj1nz1eit3k
-5.154.253.63:8321:zzlcofty:ftj1nz1eit3k
-45.72.55.53:7090:zzlcofty:ftj1nz1eit3k
+
