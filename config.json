@@ -17,7 +17,7 @@
         "refresh": 0.0
     },
     "background": false,
-    "bandwidth": true,
+    "bandwidth": false,
     "playback_speed": 1,
     "max_threads": 10,
     "min_threads": 10
