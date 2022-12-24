@@ -19,6 +19,6 @@
     "background": false,
     "bandwidth": false,
     "playback_speed": 1,
-    "max_threads": 4,
-    "min_threads": 4
+    "max_threads": 10,
+    "min_threads": 10
 }
