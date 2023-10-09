@@ -1,6 +1,6 @@
 sudo apt update
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/browser/googlechrome.deb
+sudo apt install ./googlechrome.deb
 git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
 cd YouTube-Viewer
 sudo apt install -y python3-pip
