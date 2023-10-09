@@ -9,7 +9,7 @@
     "minimum": 95.0,
     "maximum": 100.0,
     "proxy": {
-        "category": "p",
+        "category": "f",
         "proxy_type": "http",
         "filename": "proxy.txt",
         "authentication": true,
