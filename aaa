@@ -1,5 +1,5 @@
 sudo apt update
-wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/browser/googlechrome.deb
+wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/file/googlechrome.deb
 sudo apt install ./googlechrome.deb
 git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
 cd YouTube-Viewer
