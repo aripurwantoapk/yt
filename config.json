@@ -6,8 +6,8 @@
     },
     "database": true,
     "views": 1000,
-    "minimum": 95.0,
-    "maximum": 100.0,
+    "minimum": 85.0,
+    "maximum": 98.0,
     "proxy": {
         "category": "f",
         "proxy_type": "http",
@@ -20,5 +20,5 @@
     "bandwidth": false,
     "playback_speed": 1,
     "max_threads": 5,
-    "min_threads": 2
+    "min_threads": 3
 }
