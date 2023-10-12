@@ -12,7 +12,7 @@
         "category": "f",
         "proxy_type": "http",
         "filename": "proxy.txt",
-        "authentication": true,
+        "authentication": false,
         "proxy_api": false,
         "refresh": 0.0
     },
