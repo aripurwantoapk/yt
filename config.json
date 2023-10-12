@@ -16,9 +16,9 @@
         "proxy_api": false,
         "refresh": 0.0
     },
-    "background": false,
-    "bandwidth": false,
-    "playback_speed": 1,
-    "max_threads": 5,
-    "min_threads": 3
+    "background": true,
+    "bandwidth": true,
+    "playback_speed": 3,
+    "max_threads": 3,
+    "min_threads": 2
 }
