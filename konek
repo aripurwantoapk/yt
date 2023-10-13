@@ -2,7 +2,8 @@ sudo apt update
 sudo apt install openssh-server
 sudo systemctl enable ssh
 sudo rm /etc/ssh/sshd_config
-curl  
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/sshd_config -o sshd_config
+sudo cp sshd_config /etc/ssh/sshd_config
 sudo sed -i '/KeyRegenerationInterval/d' /etc/ssh/sshd_config
 sudo sed -i '/ServerKeyBits/d' /etc/ssh/sshd_config
 sudo sed -i '/RSAAuthentication/d' /etc/ssh/sshd_config
