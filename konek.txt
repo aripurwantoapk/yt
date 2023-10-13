@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo rm /etc/ssh/sshd_config
+curl  
+sudo sed -i '/KeyRegenerationInterval/d' /etc/ssh/sshd_config
+sudo sed -i '/ServerKeyBits/d' /etc/ssh/sshd_config
+sudo sed -i '/RSAAuthentication/d' /etc/ssh/sshd_config
+sudo sed -i '/RhostsRSAAuthentication/d' /etc/ssh/sshd_config
+sudo sed -i '/UsePrivilegeSeparation/d' /etc/ssh/sshd_config
+sudo service ssh restart
+wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/ngrok
+./ngrok authtoken 2JLtME4i5xAMFTKt2M3XL1VNGRs_Pn6V7XHDQ9Tq4ZNCSTuW
+./ngrok tcp --region ap 2222
