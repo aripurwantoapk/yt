@@ -11,6 +11,6 @@ sudo sed -i '/RhostsRSAAuthentication/d' /etc/ssh/sshd_config
 sudo sed -i '/UsePrivilegeSeparation/d' /etc/ssh/sshd_config
 sudo service ssh restart
 wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/ngrok
-chmod +x ngrok
+sudo chmod +x ngrok
 ./ngrok authtoken 2JLtME4i5xAMFTKt2M3XL1VNGRs_Pn6V7XHDQ9Tq4ZNCSTuW
 ./ngrok tcp --region ap 2222
