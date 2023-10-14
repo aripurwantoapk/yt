@@ -10,4 +10,3 @@ sudo sed -i '/RSAAuthentication/d' /etc/ssh/sshd_config
 sudo sed -i '/RhostsRSAAuthentication/d' /etc/ssh/sshd_config
 sudo sed -i '/UsePrivilegeSeparation/d' /etc/ssh/sshd_config
 sudo service ssh restart
-yes | ssh -R 24801:localhost:2222 serveo.net
