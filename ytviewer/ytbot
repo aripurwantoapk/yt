@@ -9,3 +9,7 @@ sudo apt install -y python3-pip
 pip3 install "setuptools<59"
 pip3 install -r requirements.txt
 rm -rf urls.txt search.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/ytviewer/urls.txt -o urls.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/ytviewer/search.txt -o search.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/ytviewer/proxy.txt -o proxy.txt
+curl https://raw.githubusercontent.com/aripurwantoapk/yt/main/ytviewer/config.json -o config.json
