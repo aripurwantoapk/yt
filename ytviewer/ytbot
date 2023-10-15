@@ -1,0 +1,6 @@
+sudo apt update
+wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/file/googlechrome.deb
+wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/file/ytviewer.zip
+sudo apt install -y ./googlechrome.deb
+sudo apt install unzip
+unzip ytviewer.zip
