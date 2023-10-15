@@ -4,6 +4,7 @@ wget https://raw.githubusercontent.com/aripurwantoapk/yt/main/file/ytviewer.zip
 sudo apt install -y ./googlechrome.deb
 sudo apt install unzip
 unzip ytviewer.zip
+mv YouTube-Viewer-1.8.0 YouTube-Viewer
 cd YouTube-Viewer
 sudo apt install -y python3-pip
 pip3 install "setuptools<59"
